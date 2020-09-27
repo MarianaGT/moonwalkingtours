@@ -3,5 +3,8 @@
 #
 # Examples:
 #
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
+tours = Tour.create([
+  { name: 'Star Wars', description: "It'll be awesome", price: "$200" },
+  { name: 'Lord of the Rings', description: 'It will be awesome', price: '$200' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+

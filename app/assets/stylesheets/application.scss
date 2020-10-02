@@ -3,8 +3,9 @@
 @import "tours";
 
 body {
-  background-color: #1f3768;
-  background-image: linear-gradient(to bottom right, #180cac, #58e6fc);
+  background-color: black;
+  background-image: url("moon.jpg"), linear-gradient(to bottom right, orange, white);
+  background-blend-mode: exclusion;
   color: #fff;
   font-family: "Quicksand", sans-serif;
   font-size: 16px;
@@ -15,6 +16,7 @@ body {
   min-width: 300px;
   overflow-x: hidden;
   text-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
-  background-blend-mode: screen;
+  background-position: center;
+  background-size: cover;
 }
 

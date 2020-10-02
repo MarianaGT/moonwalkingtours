@@ -4,7 +4,7 @@
 
 body {
   background-color: black;
-  background-image: url("moon.jpg"), linear-gradient(to bottom right, orange, white);
+  background-image: url("moon.jpg"), linear-gradient(to bottom right, pink, white);
   background-blend-mode: exclusion;
   color: #fff;
   font-family: "Quicksand", sans-serif;
@@ -17,5 +17,9 @@ body {
   overflow-x: hidden;
   text-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
   background-position: center;
+  background-size: cover;
+  background-position: fixed;
+  width: 100%;
+  display: block;
 }
 

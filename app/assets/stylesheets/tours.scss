@@ -1,6 +1,13 @@
 // Place all the styles related to the tours controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+$pink: #e074e0;
+$sfumato1: white;
+$sfumato2: #6dd5ff;
+$sfumato3: #3b899b;
+$sfumato4: #214858;
+
+
 body {
   color: #fff;
   font-family: 'Karla', sans-serif;
@@ -27,15 +34,31 @@ body {
   background-blend-mode: exclusion;
   text-align: center;
   margin: 0;
+  padding: 200px;
 }
 
 .black {
   background-color: black;
-  display: inline;
 }
 
 .pink {
   background-color: $pink;
+}
+
+.s1 {
+  color: $sfumato1;
+}
+
+.s2 {
+  color: $sfumato2;
+}
+
+.s3 {
+  color: $sfumato3;
+}
+
+.s4 {
+  color: $sfumato4;
 }
 
 .big-text {

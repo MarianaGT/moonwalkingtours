@@ -6,6 +6,8 @@ $gray: #555;
 $dark-gray: #333;
 $sfumato3: #3b899b;
 $sfumato4: #214858;
+$ocre: #e5c085;
+$yellow: #e2d385;
 
 
 body {
@@ -48,6 +50,12 @@ body {
 
 .pink {
   background-color: $pink;
+}
+
+.gold {
+  background: linear-gradient($ocre, $yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .gray {

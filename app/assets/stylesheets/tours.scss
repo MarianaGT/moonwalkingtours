@@ -76,6 +76,45 @@ body {
   align-items: center;
 }
 
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
 .block {
   display: block;
+}
+
+.margin {
+  margin: 20px;
+}
+
+.rotation {
+  animation-duration: 20s;
+  animation-name: rotate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotateZ(0);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.scale {
+  animation-duration: 10s;
+  animation-name: scale;
+  animation-iteration-count: infinite;
+}
+
+@keyframes scale {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.7);
+  }
 }

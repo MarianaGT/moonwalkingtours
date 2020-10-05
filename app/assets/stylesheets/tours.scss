@@ -45,8 +45,7 @@ body {
 }
 
 .white {
-  background-color: white;
-  background-blend-mode: exclusion;
+  background: linear-gradient(to left, rgba(255, 255, 255, .1), rgba(255, 255, 255, 1)90%);
 }
 
 .pink {
@@ -74,7 +73,7 @@ body {
 }
 
 .content-box {
-  width: 60%;
+  width: 75%;
   margin: 0 auto;
   padding: 20px;
   text-align: justify;
@@ -82,7 +81,7 @@ body {
 
 .diagonal-box {
   transform: rotate(45deg);
-  width: 100%
+  margin: 0px;
 }
 
 .flex-vertical {

@@ -6,8 +6,8 @@ $gray: #555;
 $dark-gray: #333;
 $sfumato3: #3b899b;
 $sfumato4: #214858;
-$ocre: #e5c085;
-$yellow: #e2d385;
+$ocre: #d3b07c;
+$yellow: #fee85f;
 
 
 body {
@@ -46,6 +46,7 @@ body {
 
 .white {
   background-color: white;
+  background-blend-mode: exclusion;
 }
 
 .pink {
@@ -53,7 +54,7 @@ body {
 }
 
 .gold {
-  background: linear-gradient($ocre, $yellow);
+  background: linear-gradient(to bottom right, $ocre, $yellow);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -69,12 +70,22 @@ body {
 .big-text {
   font-size: 5em;
   font-family: "Quicksand", sans-serif;
+  padding: 0 0.3em 0 0.3em
 }
 
 .content-box {
   width: 60%;
   margin: 0 auto;
   padding: 20px;
+  background-image: url("moon.jpg"), url("star004.png"), linear-gradient(to bottom right, pink, white);
+  background-blend-mode: exclusion;
+  background-position: center;
+  background-size: cover;
+}
+
+.diagonal-box {
+  transform: rotate(45deg);
+  width: 100%
 }
 
 .flex-vertical {
@@ -95,6 +106,10 @@ body {
 
 .margin {
   margin: 20px;
+}
+
+.opacity {
+  opacity: 0.5;
 }
 
 .rotation {

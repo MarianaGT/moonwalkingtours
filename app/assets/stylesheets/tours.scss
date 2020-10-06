@@ -142,3 +142,9 @@ body {
     transform: scale(0.7);
   }
 }
+
+.diagonal-caption {
+  transform-origin: 0 0;
+  transform: rotate(320deg);
+  text-align: left;
+}

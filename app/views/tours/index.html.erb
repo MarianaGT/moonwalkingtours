@@ -31,32 +31,32 @@
     </div>
   <div>
   <!-- section 2 -->
-  <div class="pink block flex">
+  <div class="block flex">
     <div class="flex">
       <div class="margin">
         <%= image_tag "star001.png"%>
-        <h2>Mariana Galán</h2>
-        <span>MA in Social Sculpture</span>
+        <h3>Mariana Galán</h3>
+        <h4>MA in Social Sculpture</h4>
         <p>Imaginative, nonconformist, resourceful</p>
       </div>
       <div class="margin">
         <%= image_tag "star001.png"%>
-        <h2>Francisco Galán</h2>
-        <span>MA in Philosophy</span>
+        <h3>Francisco Galán</h3>
+        <h4>MA in Philosophy</h4>
         <p>Razor-sharp logic, insightful, playful</p>
       </div>
       <div class="margin">
         <%= image_tag "star001.png"%>
-        <h2>Genevieve Galán</h2>
-        <span>PhD in History</span>
+        <h3>Genevieve Galán</h3>
+        <h4>PhD in History</h4>
         <p>Witty, profound, welcoming</p>
       </div>
     </div>
 
   </div>
   <p class="diagonal-box">How to be a good ancestor?</p>
-    <h1 class="dark-gray diagonal-caption">GUIDES</h1>
-  <h1>Tours</h1>
+  <h2 class="dark-gray">GUIDES</h2>
+  <h2>Tours</h2>
   <h2>Book now!</h2>
   <% @tours.each do |tour|%>
     <h3><%= link_to tour.name.capitalize, tour_path(tour) %></h3>

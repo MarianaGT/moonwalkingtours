@@ -91,12 +91,15 @@ h4 {
 
 .flex {
   display: flex;
-  justify-content: center;
 }
 
 .underline {
   border-bottom: 4px solid;
   border-radius: 2px;
+}
+
+.banner-box {
+  columns: 30px 2;
 }
 
 .content-box {
@@ -105,5 +108,6 @@ h4 {
 }
 
 .column-90 {
-  transform: rotate(90deg);
+  transform: rotate(-90deg);
+  transform-origin: 20% 40%;
 }

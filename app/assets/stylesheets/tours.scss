@@ -96,6 +96,10 @@ h4 {
   align-items: center;
 }
 
+.fit {
+  box-sizing: border-box;
+}
+
 .underline {
   border-bottom: 4px solid;
   border-radius: 2px;
@@ -112,22 +116,9 @@ h4 {
   flex-shrink: 1;
 }
 
-// mobile
-$breakpoints: (small: 320px, medium: 768px, large: 1024px);
-
-@include media (">small", "<=large") {
-  .column-90 {
-  transform: rotate(-90deg);
-  transform-origin: 90% 100%;
+.vertical-text {
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
   margin: 0;
   }
-}
-
-@include media (">large") {
-  .column-90 {
-  transform: rotate(-90deg);
-  transform-origin: 90% 100%;
-  margin: 0;
-  }
-}
 

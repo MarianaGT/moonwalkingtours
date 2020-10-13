@@ -108,7 +108,7 @@ h4 {
 .section1-slogan {
   flex-grow: 0;
   flex-shrink: 0;
-  width: 8em;
+  width: 6em;
 }
 
 .section1-content {
@@ -117,8 +117,8 @@ h4 {
 }
 
 .vertical-text {
-  writing-mode: vertical-lr;
-  text-orientation: mixed;
+  transform: rotate(-90deg) translateX(-300%);
+  transform-origin: top left;
   margin: 0;
-  }
+}
 

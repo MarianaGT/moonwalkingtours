@@ -112,8 +112,22 @@ h4 {
   flex-shrink: 1;
 }
 
-.column-90 {
+// mobile
+$breakpoints: (small: 320px, medium: 768px, large: 1024px);
+
+@include media (">small", "<=large") {
+  .column-90 {
   transform: rotate(-90deg);
   transform-origin: 90% 100%;
   margin: 0;
+  }
 }
+
+@include media (">large") {
+  .column-90 {
+  transform: rotate(-90deg);
+  transform-origin: 90% 100%;
+  margin: 0;
+  }
+}
+

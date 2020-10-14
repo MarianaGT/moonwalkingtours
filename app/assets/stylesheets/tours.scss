@@ -113,16 +113,21 @@ h4 {
   border-radius: 2px;
 }
 
-.section1-slogan {
+.section1-left-col {
   flex-grow: 0;
   flex-shrink: 0;
   width: 7em;
 }
 
-.section1-content {
+.section1-right-col {
   flex-grow: 1;
   flex-shrink: 1;
   overflow: hidden;
+}
+
+.section1-content {
+  text-indent: justify;
+  padding: 2em 3em 2em 3em;
 }
 
 .section1-quote {
@@ -135,8 +140,8 @@ h4 {
 
 .child {
   position: absolute;
-  top: 50%;
-  right: 50%;
+  top: 150px;
+  right: auto;
 }
 
 .negative-margin-l {
@@ -154,7 +159,7 @@ h4 {
 }
 
 .translation-l {
-  animation-duration: 30s;
+  animation-duration: 50s;
   animation-name: translate-l;
   animation-iteration-count: infinite;
   animation-direction: normal;
@@ -170,7 +175,7 @@ h4 {
 }
 
 .translation-r {
-  animation-duration: 10s;
+  animation-duration: 30s;
   animation-name: translate-r;
   animation-iteration-count: infinite;
   animation-direction: normal;
@@ -192,8 +197,8 @@ h4 {
 }
 
 .white-m-circle {
-  height: 300px;
-  width: 300px;
+  height: 350px;
+  width: 350px;
   border-radius: 50%;
 }
 

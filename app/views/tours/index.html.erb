@@ -1,10 +1,10 @@
 <body class="fit rainbow">
   <!-- section 1 -->
   <div class="flex fit">
-    <div class="section1-slogan">
+    <div class="section1-left-col">
       <h1 class="vertical-text dark-gray">THINK LEGACY WITH US</h1>
     </div>
-    <div class="section1-content">
+    <div class="section1-right-col">
       <div class="flex translation-l negative-margin-l">
         <%= image_tag "star005.png"%>
         <%= image_tag "star003.png", class: "scale"%>
@@ -32,7 +32,7 @@
         <%= image_tag "icon002.png"%>
         <%= image_tag "icon002.png"%>
       </div>
-      <div class="white padding">
+      <div class="white section1-content">
         <h3>We are a <span class="border-bottom">local family</span> that would like to show you
         around our town in a unique way. Fed by several areas of knowledge and different approaches to reality,
         we will journey simultaneously through memory and through some of the most
@@ -40,16 +40,15 @@
         spaces but your own inner worlds. You don't have to be or know anything in
         particular, just <span class="border-bottom">relax and enjoy.</span></h3>
       </div>
-      <div class="section1-quote parent">
-        <div class="white-m-circle white"></div>
-        <p class="child">Even a slight 1º change in perspective<br>can drastically affect the final trajectory</p>
-        <h4>hello im on top</h4>
-
+      <div class="section1-quote flex parent">
+        <div class="white-m-circle white translation-l negative-margin-l"></div>
+        <p class="child gold">Even a slight 1º change in perspective<br>can drastically affect the final trajectory</p>
       </div>
     </div>
   </div>
   <!-- section 2 -->
   <div class="block flex">
+  <h2 class="dark-gray">GUIDES</h2>
     <div class="flex">
       <div class="margin">
         <%= image_tag "star001.png"%>
@@ -73,7 +72,7 @@
 
   </div>
   <p class="diagonal-box">How to be a good ancestor?</p>
-  <h2 class="dark-gray">GUIDES</h2>
+
   <h2>Tours</h2>
   <h2>Book now!</h2>
   <% @tours.each do |tour|%>

@@ -69,8 +69,8 @@ h4 {
   75%  { background-color: $yellow;}
 }
 
-.gold {
-  background: linear-gradient(to bottom right, $ocre, $yellow);
+.shine {
+  background: linear-gradient(to bottom right, $pink, white);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -183,6 +183,22 @@ h4 {
   }
   to {
     transform: translateX(-1800px);
+  }
+}
+
+.translation-slow {
+  animation-duration: 120s;
+  animation-name: translate;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+@keyframes translate {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(1800px);
   }
 }
 

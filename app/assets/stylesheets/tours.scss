@@ -68,8 +68,7 @@ h4 {
 }
 
 @keyframes rainbow {
-  0%   { background-color: $sfumato3;}
-  25%  { background-color: $sfumato4;}
+  0%   { background-color: white;}
   50%  { background-color: $ocre;}
   75%  { background-color: $yellow;}
 }
@@ -124,6 +123,11 @@ h4 {
   flex-grow: 1;
   flex-shrink: 1;
   overflow: hidden;
+}
+
+.section1-quote {
+  height: 40%;
+  text-align: center;
 }
 
 .negative-margin-l {

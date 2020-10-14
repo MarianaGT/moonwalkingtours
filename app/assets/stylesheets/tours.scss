@@ -52,10 +52,6 @@ h4 {
   letter-spacing: 0.15em;
 }
 
-.padding {
-  padding: 20px;
-}
-
 .white {
   background-color: white;
 }
@@ -202,18 +198,8 @@ h4 {
   border-radius: 50%;
 }
 
-.rotation {
-  animation-duration: 10s;
-  animation-name: rotate;
-  animation-iteration-count: infinite;
-  animation-direction: normal;
-}
-
-@keyframes rotate {
-  from {
-    transform: translate(0), rotateZ(0);
-  }
-  to {
-    transform: translate(-50%,-50%), rotateZ(360deg);
-  }
+.card {
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
 }

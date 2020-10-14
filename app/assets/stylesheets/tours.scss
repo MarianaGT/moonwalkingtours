@@ -21,7 +21,7 @@ body {
   min-width: 300px;
   overflow-x: hidden;
   background-color: $yellow;
-  margin: 0;
+  margin: 20px;
 }
 
 h1, h2 {
@@ -117,8 +117,12 @@ h4 {
   overflow: hidden;
 }
 
-.negative-margin {
+.negative-margin-l {
   margin: 0 0 0 -1500px;
+}
+
+.negative-margin-r {
+  margin: 0 -1200px 0 0;
 }
 
 .vertical-text {
@@ -145,12 +149,12 @@ h4 {
 
 .translation-r {
   animation-duration: 10s;
-  animation-name: translate;
+  animation-name: translate-r;
   animation-iteration-count: infinite;
-  animation-direction: alternate;
+  animation-direction: normal;
 }
 
-@keyframes translate {
+@keyframes translate-r {
   from {
     transform: translateX(0);
   }

@@ -20,7 +20,6 @@ body {
   min-height: 100vh;
   min-width: 300px;
   overflow-x: hidden;
-  background-color: $yellow;
   margin: 20px;
 }
 
@@ -33,7 +32,7 @@ h1, h2 {
 
 // banner
 h1 {
-  font-size: 5em;
+  font-size: 4.5em;
 }
 
 // title
@@ -61,8 +60,18 @@ h4 {
   background-color: white;
 }
 
-.pink {
+.rainbow {
   background-color: $pink;
+  animation-duration: 50s;
+  animation-name: rainbow;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rainbow {
+  0%   { background-color: $sfumato3;}
+  25%  { background-color: $sfumato4;}
+  50%  { background-color: $ocre;}
+  75%  { background-color: $yellow;}
 }
 
 .gold {
@@ -108,7 +117,7 @@ h4 {
 .section1-slogan {
   flex-grow: 0;
   flex-shrink: 0;
-  width: 6em;
+  width: 7em;
 }
 
 .section1-content {
@@ -126,7 +135,7 @@ h4 {
 }
 
 .vertical-text {
-  transform: rotate(-90deg) translateX(-300%);
+  transform: rotate(-90deg) translateX(-420%);
   transform-origin: top left;
   margin: 0;
 }
@@ -160,5 +169,33 @@ h4 {
   }
   to {
     transform: translateX(-1800px);
+  }
+}
+
+.white-sm-circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.white-m-circle {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.rotation {
+  animation-duration: 10s;
+  animation-name: rotate;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+@keyframes rotate {
+  from {
+    transform: translate(0), rotateZ(0);
+  }
+  to {
+    transform: translate(-50%,-50%), rotateZ(360deg);
   }
 }

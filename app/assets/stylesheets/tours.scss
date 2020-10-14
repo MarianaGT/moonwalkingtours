@@ -126,8 +126,17 @@ h4 {
 }
 
 .section1-quote {
-  height: 40%;
-  text-align: center;
+  height: 400px;
+}
+
+.parent {
+  position: relative;
+}
+
+.child {
+  position: absolute;
+  top: 50%;
+  right: 50%;
 }
 
 .negative-margin-l {

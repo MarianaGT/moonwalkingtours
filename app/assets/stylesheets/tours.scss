@@ -245,7 +245,7 @@ h4 {
 
 .tab {
   float: left;
-  width: 30%;
+  width: 27%;
 }
 
 .tab label {
@@ -278,7 +278,7 @@ h4 {
   position: absolute;
   top: 1em; left: 0; right: 0; bottom: 0;
   opacity: 0;
-  margin-top: 50px;
+  margin: 50px 35px 15px 15px;
 }
 
 [type=radio]:checked ~ label {
@@ -292,7 +292,7 @@ h4 {
 
 .section3-datetime {
   width: 35%;
-  margin: 15px;
+  margin: 0 15px 0 45px;
 }
 
 

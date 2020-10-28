@@ -106,6 +106,12 @@ h4 {
   align-items: center;
 }
 
+.flex-top {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+
 .fit {
   box-sizing: border-box;
 }
@@ -234,7 +240,7 @@ h4 {
 .tabs {
   position: relative;
   // set height to be even for all tab groups
-  min-height: 200px;
+  min-height: 400px;
 }
 
 .tab {
@@ -272,7 +278,7 @@ h4 {
   position: absolute;
   top: 1em; left: 0; right: 0; bottom: 0;
   opacity: 0;
-  margin-top: 60px;
+  margin-top: 50px;
 }
 
 [type=radio]:checked ~ label {
@@ -283,3 +289,10 @@ h4 {
   z-index: 1;
   opacity: 1;
 }
+
+.section3-datetime {
+  width: 35%;
+  margin: 15px;
+}
+
+

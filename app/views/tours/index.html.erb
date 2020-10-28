@@ -29,8 +29,9 @@
       </div>
       <div class="flex translation-l negative-margin-l">
         <%= image_tag "icon001.svg"%>
-        <%= image_tag "icon002.svg"%>
         <h4><em>How to be a good ancestor?</em></h4>
+        <%= image_tag "icon002.svg"%>
+        <h4><em>Who existed before you?</em></h4>
         <%= image_tag "icon001.svg"%>
       </div>
       <div class="white-bg section1-content">
@@ -77,6 +78,7 @@
         <input type="radio" name="tabgroup" id="tab-1" checked>
         <label for="tab-1">About Cars</label>
         <div class="content">
+          <h4>Sat 11:00, 13:00 | Sun 11:00, 13:00</h4>
           <p>According to the Dutch company TomTom, in 2017 Mexico City occupied
           -for a second consecutive year- the first position in their international
           traffic congestion index. Since the situation is not going away for many
@@ -95,23 +97,24 @@
         <input type="radio" name="tabgroup" id="tab-2">
         <label for="tab-2">Moral dilemmas</label>
         <div class="content">
-        <p>Tab Two Content</p>
+          <h4>1 hr 30 min</h4>
+          <p>Have you ever wondered who existed before you and how they lived, felt
+          and thought? Are we what they dreamed the world would be like? How will
+          our daily lives impact future generations? Is reality something fixed or
+          something that we can change? <br><br> Our life is full of choices. This
+          experience is one of our most beloved original creations: it allows you
+          to play while you work out your decision-making skills. Shape your own
+          tour as you gradually walk through the scenarios we present you.</p>
         </div>
       </div>
 
       <div class="tab">
-         <input type="radio" name="tabgroup" id="tab-3">
-         <label for="tab-3">Label Three</label>
-         <div class="content">
-             <p>Tab Three Content</p>
-         </div>
+        <input type="radio" name="tabgroup" id="tab-3">
+        <label for="tab-3">Abandoned spaces</label>
+        <div class="content">
+          <p>Tab Three Content</p>
+        </div>
       </div>
 
     </div>
-  <% @tours.each do |tour|%>
-    <h3><%= link_to tour.name.capitalize, tour_path(tour) %></h3>
-  <% end %>
-  <p>Moral dilemmas: choose your adventure</p>
-  <p>About Cars</p>
-  <p>The abandoned spaces</p>
 </body>
